@@ -1,0 +1,77 @@
+$bg-dark: #433e48;
+$dark: #353039;
+$mid: #b4acbc;
+$subtle-border: #928a9a;
+$cream: #e5deb5;
+$faint: #d0c3dc;
+$bg-light: #e3daec;
+$dates: #6c5c7a;
+$blue: #4aa1e0;
+$red:rgb(205, 79, 79);
+
+$shadows: 6px 6px 6px $dark;
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: $dark;
+}
+
+html {
+    background: $bg-dark;
+}
+
+main, header {
+    box-shadow: $shadows;
+}
+
+header {
+    background: $mid;
+    border-bottom: 2px solid $subtle-border;
+
+    name {
+        font-weight: 700;
+        text-shadow: 6px 0px $cream;
+    }
+
+    .highlight {
+        text-shadow: 4px 6px $blue;
+    }
+
+    .highlight2 {
+        text-shadow: 4px 6px $red;
+    }
+}
+
+
+main {
+    background: $bg-light;
+
+    .sub-header {
+        border-bottom: 2px solid $faint;
+        display: inline;
+    }
+        
+    .dates {
+        color: $dates;
+        padding: 8px;
+        padding-right: 16px;
+        padding-left: 0px;
+        font-weight: 800px;
+    }
+    
+    .role {
+        font-weight: 300;
+        color: rgb(53, 48, 57);
+        border-bottom: 2px solid $faint;
+    }
+    
+    .role-name {
+        font-weight: 600;
+    }
+    
+    li {
+        color: $dates;
+        font-weight: 300;
+    }
+}
