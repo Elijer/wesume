@@ -34,19 +34,22 @@ window.addEventListener('load', (event) => {
   });
 
   window.onbeforeprint = function(event) {
-    console.log("yopr");
+
+    var shadowColor = '#928a9a';
+    var shad = `2px 2px ${shadowColor}`;
+
     var els = document.getElementsByClassName("highlight");
     var els2 = document.getElementsByClassName("highlight2");
     var name = document.getElementById("name");
 
-    name.style.textShadow = 'none';
+    name.style.textShadow = shad;
 
     for (var i = 0; i < els.length; i++){
-        els[i].style.textShadow = 'none';
+        els[i].style.textShadow = shad;
     }
     
     for (var i = 0; i < els2.length; i++){
-        els2[i].style.textShadow = 'none';
+        els2[i].style.textShadow = shad;
     }
 
   };
