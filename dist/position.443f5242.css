@@ -23,6 +23,10 @@ name {
     margin-bottom: 20px;
 }
 
+.sub-header-container {
+    margin-bottom: 30px;
+}
+
 h3 {
     font-size: 20px;
     letter-spacing: 5px;
@@ -53,6 +57,14 @@ li {
 .role-divider {
     margin-left: 1px;
     padding-right: 1px;
+}
+
+.dates {
+    font-size: 18px;
+}
+
+.role {
+    font-size: 24px; 
 }
 
 /*# sourceMappingURL=/position.443f5242.css.map */
