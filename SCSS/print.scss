@@ -1,7 +1,13 @@
 /* @media print { */
 
+    $highl: #b191d0;
+
     @page {
         size: auto;  margin: 0mm;
+    }
+
+    main, header {
+        box-shadow: none;
     }
 
     header, main {
@@ -12,9 +18,10 @@
     }
 
     header {
-        padding-top: 60px;
+        text-align: center;
+        padding-top: 40px;
         padding-bottom: 30px;
-        border-bottom: 2px solid #d0c3dc;
+        border-bottom: none;
 
         .highlight, .highlight2 {
             text-shadow: 0px 0px white;
@@ -24,16 +31,56 @@
             font-size: 40px;
             text-shadow: 0px 0px white;
         }
+
+        .focus-container {
+            margin-top: 12px;
+        }
+
+        h3 {
+/*             border-bottom: 4px solid #d0c3dc;
+            border-left: 4px solid #d0c3dc;
+            padding-left: 7px;
+            padding-bottom: 2px; */
+            display: inline;
+            font-size: 16px;
+        }
     }
 
     main {
-        padding-top: 60px;
+
+        padding-top: 20px;
+
+        .sub-header {
+            font-size: 20px;
+            color: #353039;
+            border-bottom: none;
+            font-style: italic;
+            //border-bottom: 2px dashed $highl;
+        }
 
         .job {
 
+            margin-bottom: 32px;
+
+            .dates {
+                padding: 0px;
+                font-size: 14px;
+                color: #b191d0;
+            }
+
             .role {
-                font-size: 20px;
+                font-size: 18px;
                 border: none;
+            }
+
+            .descrip {
+                margin-top: 5px;
+            }
+
+            li {
+                font-size: 15px;
+                line-height: 15px;
+                color: #353039;
             }
             
         }
