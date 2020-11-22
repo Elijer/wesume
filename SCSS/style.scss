@@ -7,7 +7,7 @@ $faint: #d0c3dc;
 $bg-light: #e3daec;
 $dates: #6c5c7a;
 $blue: #4aa1e0;
-$red:rgb(205, 79, 79);
+$red:#cd4f4f;
 
 $shadows: 6px 6px 6px $dark;
 
@@ -65,7 +65,7 @@ main {
         .role {
             font-weight: 300;
             color: rgb(53, 48, 57);
-            border-bottom: 2px solid $faint;
+            border-bottom: 4px solid $faint;
         }
         
         .role-name {
@@ -79,16 +79,16 @@ main {
 
     }
 
-    .job:hover {
+/*     .job:hover {
 
         .role {
             border-bottom: 5px solid $faint;
         }
-    }
-
+    } */
+/* 
     li:hover {
         color: $bg-dark;
         font-weight: 400;
-    }
+    } */
 
 }
