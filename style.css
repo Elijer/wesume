@@ -66,3 +66,13 @@ li {
 .role {
 /*     border-bottom: 4px solid rgb(180, 172, 188); */
 }
+
+.highlight {
+/*     color: rgb(74, 161, 224); */
+    text-shadow: 4px 6px rgb(74, 161, 224);
+}
+
+.highlight2 {
+/*     color: rgb(205, 79, 79); */
+    text-shadow: 4px 6px rgb(205, 79, 79);
+}
