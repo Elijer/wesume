@@ -2,7 +2,7 @@ body {
 }
 
 header, main {
-    margin: 260px;
+    margin: 240px;
     margin-top: 40px;
     padding: 100px;
 }
@@ -26,6 +26,33 @@ name {
 h3 {
     font-size: 20px;
     letter-spacing: 5px;
+}
+
+
+.sub-header {
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+}
+
+h4 {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+li {
+    margin-top: 7px;
+}
+
+.descrip {
+    margin-top: 14px;
+    margin-bottom: 63px;
+}
+
+.role-divider {
+    margin-left: 1px;
+    padding-right: 1px;
 }
 
 /*# sourceMappingURL=/position.443f5242.css.map */
