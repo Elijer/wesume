@@ -25,6 +25,14 @@ main, header {
     box-shadow: $shadows;
 }
 
+.highlight {
+    text-shadow: 4px 6px $blue;
+}
+
+.highlight2 {
+    text-shadow: 4px 6px $red;
+}
+
 header {
     background: $mid;
     border-bottom: 2px solid $subtle-border;
@@ -32,14 +40,6 @@ header {
     name {
         font-weight: 700;
         text-shadow: 6px 0px $cream;
-    }
-
-    .highlight {
-        text-shadow: 4px 6px $blue;
-    }
-
-    .highlight2 {
-        text-shadow: 4px 6px $red;
     }
 }
 
@@ -51,27 +51,44 @@ main {
         border-bottom: 2px solid $faint;
         display: inline;
     }
+    
+    .job {
+
+        .dates {
+            color: $dates;
+            padding: 8px;
+            padding-right: 16px;
+            padding-left: 0px;
+            font-weight: 800px;
+        }
         
-    .dates {
-        color: $dates;
-        padding: 8px;
-        padding-right: 16px;
-        padding-left: 0px;
-        font-weight: 800px;
+        .role {
+            font-weight: 300;
+            color: rgb(53, 48, 57);
+            border-bottom: 2px solid $faint;
+        }
+        
+        .role-name {
+            font-weight: 600;
+        }
+        
+        li {
+            color: $dates;
+            font-weight: 300;
+        }
+
     }
-    
-    .role {
-        font-weight: 300;
-        color: rgb(53, 48, 57);
-        border-bottom: 2px solid $faint;
+
+    .job:hover {
+
+        .role {
+            border-bottom: 5px solid $faint;
+        }
     }
-    
-    .role-name {
-        font-weight: 600;
+
+    li:hover {
+        color: $bg-dark;
+        font-weight: 400;
     }
-    
-    li {
-        color: $dates;
-        font-weight: 300;
-    }
+
 }
