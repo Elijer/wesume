@@ -1,19 +1,21 @@
 body {
 }
 
-header {
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 0px;
+header, main {
+    margin: 260px;
+    margin-top: 40px;
     padding: 100px;
+}
+
+header {
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 main {
     margin-top: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 100px;
+    padding-top: 40px;
 }
 
 name {

@@ -8,14 +8,26 @@ html {
     background: rgb(67, 62, 72)
 }
 
+main, header {
+    box-shadow: 6px 6px 6px  rgb(53, 48, 57);
+}
+
 header {
     background: rgb(180, 172, 188);
-    box-shadow: 6px 6px 6px  rgb(53, 48, 57)
+    border-bottom: 2px solid rgb(146, 138, 154);
+}
+
+name {
+    font-weight: 700;
+/*     text-shadow: 6px 0px rgb(229, 222, 181); */
+}
+
+span {
+/*     color: rgb(229, 222, 181); */
 }
 
 main {
     background: rgb(227, 218, 236);
-    box-shadow: 6px 6px 6px  rgb(53, 48, 57)
 }
 
 
