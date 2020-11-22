@@ -1,5 +1,25 @@
-body {
-    background: purple;
+* {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(54, 50, 59)
+    /*color: rgb(67, 62, 72);*/
 }
+
+html {
+    background: rgb(67, 62, 72)
+}
+
+header {
+    background: rgb(180, 172, 188);
+    box-shadow: 6px 6px 6px  rgb(53, 48, 57)
+}
+
+main {
+    background: rgb(227, 218, 236);
+    box-shadow: 6px 6px 6px  rgb(53, 48, 57)
+}
+
+
+
+
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

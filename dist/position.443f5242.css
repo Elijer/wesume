@@ -1,6 +1,29 @@
 body {
+}
+
+header {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
     padding: 100px;
-    margin: auto;
+}
+
+main {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 100px;
+}
+
+name {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 5px;
 }
 
 /*# sourceMappingURL=/position.443f5242.css.map */
