@@ -12,7 +12,7 @@ header, main {
 
 header {
 
-    padding: 48px 48px 20px 100px;
+    padding: 36px 48px 20px 100px;
     margin-bottom: 0px;
 
     display: grid;
@@ -21,7 +21,8 @@ header {
     #title {
 
         margin: 0px;
-        padding: 0px;
+        margin-top: 0px;
+        padding: 10px 0px;
 
         name {
             letter-spacing: 6px;
@@ -40,12 +41,10 @@ header {
 
         a, li {
             font-size: 14px;
-            font-style: italic;
-            letter-spacing: 3px;
         }
 
         li {
-            margin: 0px 0px 8px;
+            margin: 0px 0px 11px;
             letter-spacing: 2px;
         }
 
@@ -57,9 +56,7 @@ header {
 
 }
 
-
-
-
+ 
 main {
     margin-top: 0px;
     padding-top: 40px;
@@ -69,10 +66,12 @@ main {
     display: none;
 }
 
+// this container is necessary because the sub-header itself is displayed inline, which makes it difficult to add a margin-bottom
 .sub-header-container {
     margin-bottom: 30px;
+    // this left margin is to match the padding for .job
+    margin-left: 20px;
 }
-
 
 .sub-header {
     font-weight: 500;

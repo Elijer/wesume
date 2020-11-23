@@ -18,6 +18,11 @@ header {
         transition: text-shadow 1s, color .8s .4s;
     }
 
+    .highlight-slash {
+        color: $subtle-border;
+        transition: color 4s;
+    }
+
 }
 
 // HEADER IN
@@ -39,6 +44,11 @@ header:hover {
     a:hover {
         color: white;
         font-weight: 900;
+    }
+
+    .highlight-slash {
+        color: $red;
+        transition: color 2s;
     }
 
 }

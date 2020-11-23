@@ -20,17 +20,22 @@ header {
         name {
             font-weight: 700;
         }
-    
-        .highlight-slash {
-            color: $dates;
-            transition: color 4s;
+
+        a {
+            color: inherit;
         }
+
     }
 
     #aside {
 
         ul {
             list-style: none;
+
+            li {
+                font-weight: 300;
+                letter-spacing: 2px;
+            }
         }
     }
 }
