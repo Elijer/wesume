@@ -24,13 +24,15 @@ header {
     #title {
 
         .highlight {
+            color: $dates;
             text-shadow: -4px -3px $red;
             transition: text-shadow 1s, color .8s .4s;
         }
     
         name {
+            color: $dates;
             font-weight: 700;
-            text-shadow: -4px -3px $dates;
+            text-shadow: -4px -3px $dark;
             letter-spacing: 6px;
             transition: text-shadow 1s, color .8s .4s;
         }
@@ -67,7 +69,7 @@ header:hover {
     #title {
 
         name, .highlight {
-            text-shadow: 8px 3px $dates;
+            text-shadow: 4px 3px $dates;
             color: $red;
             transition: text-shadow 1s, color 1s;
         }
