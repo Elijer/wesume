@@ -1,7 +1,7 @@
 @import "palette";
 
-@media print {
-
+/* @media print {
+ */
     $highl: #b191d0;
 
     @page {
@@ -47,6 +47,12 @@
             letter-spacing: 2px;
             font-size: 14px;
         }
+
+/*         #aside-mobile {
+            padding-bottom: 20px;
+            margin-bottom: 33px;
+            display: block;
+        } */
     }
 
     main {
@@ -97,4 +103,4 @@
         }
     }
 
-}
+/* } */
