@@ -30,7 +30,19 @@ header:hover {
         color: $red;
         transition: text-shadow 1s, color 1s;
     }
+
+    // Links
+    a {
+        color: $bg-dark;
+    }
+
+    a:hover {
+        color: white;
+        font-weight: 900;
+    }
+
 }
+
 
 
 //JOB OUT
