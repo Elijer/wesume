@@ -39,7 +39,7 @@ header {
     #aside {
 
         padding: 0px;
-        
+
         a, li {
             font-size: 14px;
             font-style: italic;
@@ -106,4 +106,66 @@ h4 {
 li {
     margin-top: 7px;
     font-size: 18px;
+}
+
+@media (max-width: 1170px) {
+
+    body {
+        background: yellow;
+    }
+
+    header, main {
+        margin: 0px;
+        margin-top: 0px;
+        padding: 40px;
+    }
+
+    header {
+
+        grid-template-columns: 70% 30%;
+
+        #title {
+            name {
+                font-size: 50px;
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 1170px) {
+    header {
+
+        grid-template-columns: 100% 30%;
+
+        #title {
+            name {
+                font-size: 50px;
+            }
+
+        }
+
+        #aside {
+            display: none;
+        }
+    }
+
+    main {
+        #aside-mobile {
+            padding-bottom: 20px;
+            margin-bottom: 33px;
+        }
+
+        a {
+            display: block;
+            line-height: 26px;
+        }
+
+        a:hover {
+            color: $red;
+            font-weight: 700;
+        }
+
+    }
 }

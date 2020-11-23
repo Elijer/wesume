@@ -18,21 +18,21 @@ main, header {
 
 header {
     
-    background: $mid;
+    background: $faint;
     transition: background 1s;
 
     #title {
 
         .highlight {
-            color: $dates;
+            color: $bg-dark;
             text-shadow: -4px -3px $red;
             transition: text-shadow 1s, color .8s .4s;
         }
     
         name {
-            color: $dates;
+            color: $bg-dark;
             font-weight: 700;
-            text-shadow: -4px -3px $dark;
+            text-shadow: -4px -3px $dates;
             letter-spacing: 6px;
             transition: text-shadow 1s, color .8s .4s;
         }
@@ -145,10 +145,4 @@ main {
         -webkit-transition: background-color 1s;
     }
 
-}
-
-@media (max-width: 1008px) {
-    body {
-        background: yellow;
-    }
 }
