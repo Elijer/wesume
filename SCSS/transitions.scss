@@ -3,9 +3,28 @@
 header {
     background: $faint;
     transition: background 1s;
+
+    name {
+        color: $bg-dark;
+        text-shadow: -4px -3px $dates;
+        transition: text-shadow 1s, color .8s .4s;
+    }
+
+    .highlight {
+        color: $bg-dark;
+        text-shadow: -4px -3px $red;
+        transition: text-shadow 1s, color .8s .4s;
+    }
+
 }
 
 header:hover {
     background: $red;
     transition: background 1s;
+
+    name, .highlight {
+        text-shadow: 4px 3px $dates;
+        color: $red;
+        transition: text-shadow 1s, color 1s;
+    }
 }

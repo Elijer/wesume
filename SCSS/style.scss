@@ -19,19 +19,10 @@ main, header {
 header {
 
     #title {
-
-        .highlight {
-            color: $bg-dark;
-            text-shadow: -4px -3px $red;
-            transition: text-shadow 1s, color .8s .4s;
-        }
     
         name {
-            color: $bg-dark;
             font-weight: 700;
-            text-shadow: -4px -3px $dates;
             letter-spacing: 6px;
-            transition: text-shadow 1s, color .8s .4s;
         }
     
         .highlight-slash {
@@ -59,15 +50,6 @@ header {
 }
 
 header:hover {
-
-    #title {
-
-        name, .highlight {
-            text-shadow: 4px 3px $dates;
-            color: $red;
-            transition: text-shadow 1s, color 1s;
-        }
-    }
 
     #aside {
 

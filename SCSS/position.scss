@@ -116,7 +116,7 @@ li {
     font-size: 18px;
 }
 
-@media not print and (max-width: 800px) {
+@media (max-width: 800px) {
 
     header, main {
         margin: 0px;
@@ -138,7 +138,7 @@ li {
 
 }
 
-@media not print and (max-width: 800px) {
+@media (max-width: 800px) {
     header {
 
         grid-template-columns: 100% 30%;
