@@ -119,34 +119,40 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"index.js":[function(require,module,exports) {
 console.log('behavior.js');
-window.addEventListener('load', function (event) {
-  console.log('page is fully loaded');
-  var def = 10;
-  var blue = '#4aa1e0';
+/* window.addEventListener('load', (event) => {
 
-  document.onmousemove = function (e) {
-    console.log("hey");
-    var w = window.innerWidth;
-    var h = window.innerHeight;
-    var x = e.x;
-    var y = e.y;
-    var xR = x / w;
-    var yR = y / h;
-    var newPosition = "".concat(def * xR, "px ").concat(def * yR, "px");
-    var els = document.getElementsByClassName("highlight");
-    var els2 = document.getElementsByClassName("highlight2");
-    var name = document.getElementById("name");
-    name.style.textShadow = newPosition + ' #e5deb5';
+    console.log('page is fully loaded');
+    var def = 100;
+    var blue = '#4aa1e0'
 
-    for (var i = 0; i < els.length; i++) {
-      els[i].style.textShadow = newPosition + ' #58b3f4';
+    document.onmousemove = function(e){
+        console.log("hey")
+
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        var x = e.x;
+        var y = e.y;
+
+        var xR = x/w;
+        var yR = y/h;
+
+        var newPosition = `${def * xR}px ${def * yR}px`;
+
+        var els = document.getElementsByClassName("highlight");
+        var els2 = document.getElementsByClassName("highlight2");
+        var name = document.getElementById("name");
+        name.style.textShadow = newPosition + ' #e5deb5';
+
+        for (var i = 0; i < els.length; i++){
+            els[i].style.textShadow = newPosition + ' #58b3f4';
+        }
+        
+        for (var i = 0; i < els2.length; i++){
+            els2[i].style.textShadow = newPosition + ' #ec6b6b';
+        }
+
     }
-
-    for (var i = 0; i < els2.length; i++) {
-      els2[i].style.textShadow = newPosition + ' #ec6b6b';
-    }
-  };
-});
+  }); */
 
 window.onbeforeprint = function (event) {
   var shadowColor = '#928a9a';

@@ -1,9 +1,9 @@
 console.log('behavior.js');
 
-window.addEventListener('load', (event) => {
+/* window.addEventListener('load', (event) => {
 
     console.log('page is fully loaded');
-    var def = 10;
+    var def = 100;
     var blue = '#4aa1e0'
 
     document.onmousemove = function(e){
@@ -33,7 +33,7 @@ window.addEventListener('load', (event) => {
         }
 
     }
-  });
+  }); */
 
   window.onbeforeprint = function(event) {
 

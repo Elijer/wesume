@@ -1,4 +1,6 @@
-@media print {
+@import "palette";
+
+/* @media print { */
 
     $highl: #b191d0;
 
@@ -19,7 +21,7 @@
 
     header {
         padding-top: 40px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         border-bottom: none;
 
         .highlight, .highlight2 {
@@ -29,6 +31,7 @@
         #name {
             font-size: 40px;
             text-shadow: 0px 0px white;
+            letter-spacing: 5px;
         }
 
         .focus-container {
@@ -41,7 +44,8 @@
             padding-left: 7px;
             padding-bottom: 2px; */
             display: inline;
-            font-size: 16px;
+            letter-spacing: 2px;
+            font-size: 14px;
         }
     }
 
@@ -54,12 +58,18 @@
             color: #353039;
             border-bottom: none;
             font-style: italic;
-            //border-bottom: 2px dashed $highl;
+            border-bottom: 2px solid $dates;
+        }
+
+        .sub-header-container {
+            margin-bottom: 10px;
         }
 
         .job {
 
-            margin-bottom: 32px;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 20px;
             padding-bottom: 0px;
 
             .dates {
@@ -87,4 +97,4 @@
         }
     }
 
-}
+/* } */

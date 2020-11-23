@@ -16,24 +16,37 @@ main, header {
     box-shadow: $shadows;
 }
 
-.highlight {
-    text-shadow: 4px 6px $blue;
-}
-
-.highlight2 {
-    text-shadow: 4px 6px $red;
-}
-
 header {
     background: $mid;
     border-bottom: 2px solid $subtle-border;
 
+    .highlight {
+        text-shadow: -4px -3px $red;
+        transition: text-shadow 1s, color .8s .4s;
+    }
+
     name {
         font-weight: 700;
-        text-shadow: 6px 0px $cream;
+        text-shadow: -4px -3px $dates;
+        letter-spacing: 6px;
+        transition: text-shadow 1s, color .8s .4s;
+    }
+
+    .highlight-slash {
+        color: $red;
+        transition: color 4s;
     }
 }
 
+header:hover {
+
+    name, .highlight {
+        text-shadow: 8px 6px $dates;
+        color: $mid;
+        transition: text-shadow 1.5s;
+    }
+
+}
 
 main {
     background: $bg-light;
@@ -75,6 +88,7 @@ main {
 
         .square {
             background-color: $red;
+            -webkit-transition: background-color 1s;
         }
     }
 
@@ -86,6 +100,13 @@ main {
         top: 28px;
         background-color: $faint;
         z-index: 5;
+        -webkit-transition: background-color 1s;
     }
 
+}
+
+@media (max-width: 1008px) {
+    body {
+        background: yellow;
+    }
 }
