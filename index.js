@@ -35,7 +35,7 @@ console.log('behavior.js');
     }
   }); */
 
-  window.onbeforeprint = function(event) {
+/*   window.onbeforeprint = function(event) {
 
     var shadowColor = '#928a9a';
     var shad = `2px 2px ${shadowColor}`;
@@ -54,4 +54,4 @@ console.log('behavior.js');
         els2[i].style.textShadow = shad;
     }
 
-  };
+  }; */

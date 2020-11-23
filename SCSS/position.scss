@@ -1,23 +1,62 @@
-header, main {
-    margin: 240px;
-    margin-top: 40px;
-    padding: 100px;
+@import "palette";
+
+body {
+    margin-top: 0px;
 }
+
+header, main {
+    margin: 180px;
+    margin-top: 20px;
+    padding: 100px;
+    padding-right: 80px;
+}
+
 
 header {
 
-    padding: 60px 100px 20px;
+    padding: 48px 48px 20px 100px;
     margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 70% 30%;
 
-    name {
-        font-size: 80px;
-        margin-bottom: 20px;
+    #title {
+
+        margin: 0px;
+        padding: 0px;
+
+        name {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            font-size: 15px;
+            letter-spacing: 3px;
+        }
+
     }
-    
-    h3 {
-        font-size: 20px;
-        letter-spacing: 5px;
+
+    #aside {
+
+        padding: 0px;
+        
+        a, li {
+            font-size: 14px;
+            font-style: italic;
+            letter-spacing: 3px;
+        }
+
+        ul {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        li {
+            margin: 0px 0px 8px 0px;
+            letter-spacing: 2px;
+        }
     }
+
 }
 
 main {

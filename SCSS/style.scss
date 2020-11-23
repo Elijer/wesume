@@ -17,33 +17,73 @@ main, header {
 }
 
 header {
+    
     background: $mid;
-    border-bottom: 2px solid $subtle-border;
+    transition: background 1s;
 
-    .highlight {
-        text-shadow: -4px -3px $red;
-        transition: text-shadow 1s, color .8s .4s;
+    #title {
+
+        .highlight {
+            text-shadow: -4px -3px $red;
+            transition: text-shadow 1s, color .8s .4s;
+        }
+    
+        name {
+            font-weight: 700;
+            text-shadow: -4px -3px $dates;
+            letter-spacing: 6px;
+            transition: text-shadow 1s, color .8s .4s;
+        }
+    
+        .highlight-slash {
+            color: $dates;
+            transition: color 4s;
+        }
+        
     }
 
-    name {
-        font-weight: 700;
-        text-shadow: -4px -3px $dates;
-        letter-spacing: 6px;
-        transition: text-shadow 1s, color .8s .4s;
-    }
+    #aside {
 
-    .highlight-slash {
-        color: $red;
-        transition: color 4s;
+        ul {
+            list-style: none;
+        }
+
+        a {
+            color: $subtle-border;
+            font-weight: 300;
+        }
+
+        a:hover {
+            color: rgb(255, 218, 106);
+        }
     }
 }
 
 header:hover {
 
-    name, .highlight {
-        text-shadow: 8px 6px $dates;
-        color: $mid;
-        transition: text-shadow 1.5s;
+    background: $red;
+    transition: background 1s;
+
+    #title {
+
+        name, .highlight {
+            text-shadow: 8px 3px $dates;
+            color: $red;
+            transition: text-shadow 1s, color 1s;
+        }
+    }
+
+    #aside {
+
+        a {
+            color: $bg-dark;
+        }
+
+        a:hover {
+            color: white;
+            font-weight: 900;
+        }
+
     }
 
 }
