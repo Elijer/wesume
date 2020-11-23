@@ -36,19 +36,26 @@ header:hover {
         transition: text-shadow 1s, color 1s;
     }
 
-    // Links
-    a {
-        color: $bg-dark;
-    }
-
-    a:hover {
-        color: white;
-        font-weight: 900;
-    }
-
     .highlight-slash {
         color: $red;
         transition: color 2s;
+    }
+
+
+    #aside {
+        // Links
+        a {
+            color: $bg-light;
+            font-size: 16px;
+            text-shadow: 1px 1px $bg-dark;
+        }
+
+        a:hover {
+            color: white;
+            font-size: 18px;
+            text-shadow: 1px 1px $bg-dark;
+            font-weight: 900;
+        }
     }
 
 }

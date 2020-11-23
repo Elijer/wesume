@@ -33,8 +33,11 @@ header {
             list-style: none;
 
             li {
-                font-weight: 300;
-                letter-spacing: 2px;
+                a {
+                    font-size: 12px;
+                    font-weight: 400;
+                    letter-spacing: 2px;
+                }
             }
         }
     }
