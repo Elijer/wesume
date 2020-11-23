@@ -101,24 +101,13 @@ main {
 
     }
 
-    .job:hover {
-        background: $faint;
-
-        .square {
-            background-color: $red;
-            -webkit-transition: background-color 1s;
-        }
-    }
-
     .square {
         position: relative;
         height: 20px;
         width: 20px;
         left: -30px;
         top: 28px;
-        background-color: $faint;
         z-index: 5;
-        -webkit-transition: background-color 1s;
     }
 
 }
