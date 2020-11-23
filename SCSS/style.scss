@@ -1,16 +1,7 @@
-$bg-dark: #433e48;
-$dark: #353039;
-$mid: #b4acbc;
-$subtle-border: #928a9a;
-$cream: #e5deb5;
-$faint: #d0c3dc;
-$bg-light: #e3daec;
-$dates: #6c5c7a;
-$blue: #4aa1e0;
-$red:#cd4f4f;
+@import "palette";
 
 $shadows: 6px 6px 6px $dark;
-
+$shadows2: 4px 4px 4px $dates;
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -79,16 +70,22 @@ main {
 
     }
 
-/*     .job:hover {
+    .job:hover {
+        background: $faint;
 
-        .role {
-            border-bottom: 5px solid $faint;
+        .square {
+            background-color: $red;
         }
-    } */
-/* 
-    li:hover {
-        color: $bg-dark;
-        font-weight: 400;
-    } */
+    }
+
+    .square {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        left: -30px;
+        top: 28px;
+        background-color: $faint;
+        z-index: 5;
+    }
 
 }

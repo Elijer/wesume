@@ -1,4 +1,4 @@
-/* @media print { */
+@media print {
 
     $highl: #b191d0;
 
@@ -18,7 +18,6 @@
     }
 
     header {
-        text-align: center;
         padding-top: 40px;
         padding-bottom: 30px;
         border-bottom: none;
@@ -61,6 +60,7 @@
         .job {
 
             margin-bottom: 32px;
+            padding-bottom: 0px;
 
             .dates {
                 padding: 0px;
@@ -79,11 +79,12 @@
 
             li {
                 font-size: 15px;
-                line-height: 15px;
-                color: #353039;
+                line-height: 14px;
+                color: #6c5c7a;
+                font-weight: 300;
             }
             
         }
     }
 
-/* } */
+}

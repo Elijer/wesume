@@ -132,17 +132,18 @@ window.addEventListener('load', function (event) {
     var y = e.y;
     var xR = x / w;
     var yR = y / h;
+    var newPosition = "".concat(def * xR, "px ").concat(def * yR, "px");
     var els = document.getElementsByClassName("highlight");
     var els2 = document.getElementsByClassName("highlight2");
     var name = document.getElementById("name");
-    name.style.textShadow = "".concat(def * xR, "px ").concat(def * yR, "px #e5deb5");
+    name.style.textShadow = newPosition + ' #e5deb5';
 
     for (var i = 0; i < els.length; i++) {
-      els[i].style.textShadow = "".concat(def * xR, "px ").concat(def * yR, "px #4aa1e0");
+      els[i].style.textShadow = newPosition + ' #58b3f4';
     }
 
     for (var i = 0; i < els2.length; i++) {
-      els2[i].style.textShadow = "".concat(def * xR, "px ").concat(def * yR, "px #cd4f4f");
+      els2[i].style.textShadow = newPosition + ' #ec6b6b';
     }
   };
 });
