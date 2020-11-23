@@ -1,14 +1,12 @@
 @import "palette";
 
 body {
-    margin-top: 0px;
+    margin: 0px;
 }
 
 header, main {
-    margin: 180px;
-    margin-top: 20px;
-    padding: 100px;
-    padding-right: 80px;
+    margin: 20px 180px 20px;
+    padding: 100px 80px 53px 100px;
 }
 
 
@@ -16,6 +14,7 @@ header {
 
     padding: 48px 48px 20px 100px;
     margin-bottom: 0px;
+
     display: grid;
     grid-template-columns: 70% 30%;
 
@@ -26,20 +25,18 @@ header {
 
         name {
             letter-spacing: 6px;
-            font-size: 48px;
+            font-size: 49px;
             margin-bottom: 20px;
         }
         
-        h3 {
-            font-size: 15px;
-            letter-spacing: 3px;
+        #trade {
+            font-size: 14px;
+            padding-top: 14px;
+            letter-spacing: 4px;
         }
-
     }
 
     #aside {
-
-        padding: 0px;
 
         a, li {
             font-size: 14px;
@@ -47,29 +44,28 @@ header {
             letter-spacing: 3px;
         }
 
+        li {
+            margin: 0px 0px 8px;
+            letter-spacing: 2px;
+        }
+
         ul {
             padding: 0px;
             margin: 0px;
         }
-
-        li {
-            margin: 0px 0px 8px 0px;
-            letter-spacing: 2px;
-        }
     }
 
 }
+
+
+
 
 main {
     margin-top: 0px;
     padding-top: 40px;
 }
 
-#aside-mobile {
-    display:none;
-}
-
-#mobile {
+.mobile {
     display: none;
 }
 
