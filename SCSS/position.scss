@@ -53,6 +53,7 @@ header {
             padding: 0px;
             margin: 0px;
         }
+
     }
 
 }
@@ -81,38 +82,85 @@ main {
     margin-top: 0px;
 }
 
-h4 {
-    margin: 0px;
-    padding-top: 0px;
-}
-
-.dates {
-    font-size: 18px;
-}
-
-.role {
-    font-size: 24px; 
-    display: inline;
-    padding-right: 10px;
-}
-
-.role-divider {
-    margin-left: 1px;
-    padding-right: 1px;
-}
+// JOB
 
 .job {
     padding: 14px;
     padding-left: 20px;
     padding-bottom: 20px;
     margin-bottom: 33px;
+
+    .dates {
+        font-size: 18px;
+    }
+    
+    .role {
+        font-size: 24px; 
+        display: inline;
+        padding-right: 10px;
+    }
+    
+    .role-divider {
+        margin-left: 1px;
+        padding-right: 1px;
+    }
+    
+    li {
+        margin-top: 7px;
+        font-size: 18px;
+    }
+
 }
 
-li {
-    margin-top: 7px;
-    font-size: 18px;
+@media screen and (max-width: 1140px){
+    header, main {
+        margin: 20px;
+        margin-top: 20px;
+        padding: 40px;
+    }
+
+    header {
+        margin-bottom: 0px;
+        // this prevents the contact li's to wrap into 2x2
+        grid-template-columns: 80% 20%;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+
+
 }
 
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 320px){
+    header, main {
+        margin: 6px;
+        padding: 40px;
+    }
+
+    header {
+        margin-bottom: 0px;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+
+    header {
+        #title {
+            #name {
+                font-size: 40px;
+            }
+        }
+    }
+    
+}
+
+/* 
 @media (max-width: 800px) {
 
     header, main {
@@ -175,4 +223,4 @@ li {
         }
 
     }
-}
+} */

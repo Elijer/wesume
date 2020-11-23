@@ -47,6 +47,14 @@
             letter-spacing: 2px;
             font-size: 14px;
         }
+
+        #aside {
+            li {
+                a {
+                    color: $bg-dark;
+                }
+            }
+        }
     }
 
     main {
@@ -66,6 +74,9 @@
         }
 
         .job {
+
+            // This beautiful line prevents page breaks from splitting up jobs
+            page-break-inside: avoid;
 
             margin: 0px;
             padding: 0px;
