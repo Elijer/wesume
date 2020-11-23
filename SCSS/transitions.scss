@@ -1,0 +1,11 @@
+@import "palette";
+
+header {
+    background: $faint;
+    transition: background 1s;
+}
+
+header:hover {
+    background: $red;
+    transition: background 1s;
+}

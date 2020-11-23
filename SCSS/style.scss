@@ -17,9 +17,6 @@ main, header {
 }
 
 header {
-    
-    background: $faint;
-    transition: background 1s;
 
     #title {
 
@@ -62,9 +59,6 @@ header {
 }
 
 header:hover {
-
-    background: $red;
-    transition: background 1s;
 
     #title {
 
