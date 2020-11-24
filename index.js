@@ -1,4 +1,33 @@
-console.log('behavior.js');
+window.addEventListener('load', (event) => {
+
+    var contact = [
+        "eliahclimbs@gmail.com",
+        "+1 (571) 302 4423",
+        "https://elijahkennedy.com",
+        "https://github.com/Elijer"
+    ];
+
+    var mobileIcons = document.getElementById("mobile-contact").children;
+    console.log(mobileIcons);
+    
+    var disp = document.getElementById("name");
+    var current;
+    for (var i = 0; i < mobileIcons.length; i++){
+        let index = i;
+        current = mobileIcons[i];
+        current.addEventListener("click", function(){
+
+            disp.innerHTML = contact[index];
+            disp.style.fontSize = "20px";
+            disp.style.color = "white";
+
+        })
+        
+    }
+
+})
+
+
 
 /* window.addEventListener('load', (event) => {
 
@@ -33,9 +62,9 @@ console.log('behavior.js');
         }
 
     }
-  }); */
+  });
 
-/*   window.onbeforeprint = function(event) {
+window.onbeforeprint = function(event) {
 
     var shadowColor = '#928a9a';
     var shad = `2px 2px ${shadowColor}`;
