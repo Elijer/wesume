@@ -153,7 +153,12 @@ main {
     header {
 
         display: block; // this is necessary to get rid of grid
-        padding: 20px 20px 12px;
+        padding: 20px 20px 12px; // restyle padding to be minimal
+
+        // hide the normal #trade and #aside menus
+        #trade, #aside {
+            display: none;
+        }
 
         #title {
 
@@ -161,30 +166,31 @@ main {
             text-align: center;
 
             #name {
-                font-size: 36px;
+                font-size: 180%;
                 letter-spacing: 1px;
-                margin: auto;
             }
-        }
-
-        #trade, #aside {
-            display: none;
         }
 
         .mobile {
             padding-top: 10px;
             display: block;
 
-            a {
-                display: inline;
-                font-size: 18px;
+            // TRADES BAR
+            .trades-mobile {
                 text-align: center;
-                padding: 6px 0px;
-                margin: 6px;
-                color: $bg-dark;
-                text-shadow: 1px 1px $dates;
+
+                a {
+                    font-size: 100%;
+                    display: inline;
+                    text-align: center;
+                    padding: 6px 0px;
+                    margin: 6px;
+                    color: $bg-dark;
+                    text-shadow: 1px 1px $dates;
+                }
             }
 
+            // CONTACTS VERTICAL MENU
             #mobile-contact {
                 padding: 10px 0px 10px 10px;
                 display: block;
@@ -193,26 +199,94 @@ main {
                 .contact-entry {
 
                     text-align: left;
+                    display: block;
 
-                    padding: 4px 0px 0px 4px;
+                    padding: 8px 0px 0px 0px;
 
                     i {
                         padding-right: 8px;
+                        color: $dates;
                     }
 
                     p {
                         display: inline;
                         font-size: 14px;
-                        letter-spacing: .8px;
-                        color: $dates;
+                        letter-spacing: 1.4px;
+                        color: $bg-dark;
                     }
                 }
             }
+        }
 
-            a:hover {
-                color: white;
+    }
+
+    main {
+
+        padding: 32px 8px 25px;
+
+        .sub-header {
+            font-size: 20px;
+        }
+
+        .square {
+            display: none;
+        }
+
+        .job {
+
+            padding-bottom: 0px;
+            margin-bottom: 22px;
+
+            .role {
+
+                border: none;
+
+                .role-divider {
+                    display: none;
+                }
+
+                .dates, .role-title, .employer {
+                    display: block;
+                    font-size: 16px;
+                }
+
+                .role-title {
+                    font-size: 22px;
+                }
+
+                .dates {
+                    color: $dates;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                .employer {
+                    padding-bottom: 0px;
+                    border-bottom: 4px solid $faint;
+                }
+
+            }
+        }
+        
+        .descrip {
+
+            position: relative;
+
+            padding: 0px;
+            padding-left: 14px;
+            margin: 0px;
+            top: -18px;
+
+            ul {
+                padding: 0px;
+                margin: 0px;
             }
 
+            li {
+                font-size: 14px;
+                margin: 0px;
+                margin-bottom: 7px;
+            }
         }
 
     }
