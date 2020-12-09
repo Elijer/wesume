@@ -234,10 +234,20 @@ main {
 
         .job {
 
+            h4.dates {
+                color: $dates;
+                font-size: 13px;
+/*                     font-size: 16px; */
+                font-weight: 600;
+                padding-left: 1px;
+            }
+
             padding-bottom: 0px;
             margin-bottom: 22px;
 
             .role {
+
+                color: $dates;
 
                 border: none;
 
@@ -250,44 +260,34 @@ main {
                     font-size: 16px;
                 }
 
-                .role-title {
-                    font-size: 22px;
-                }
-
-                .dates {
-                    color: $dates;
-                    font-size: 16px;
-                    font-weight: 600;
-                }
-
                 .employer {
                     padding-bottom: 0px;
                     border-bottom: 4px solid $faint;
                 }
 
             }
-        }
-        
-        .descrip {
 
-            position: relative;
+            .descrip {
 
-            padding: 0px;
-            padding-left: 14px;
-            margin: 0px;
-            top: -18px;
-
-            ul {
+                position: relative;
                 padding: 0px;
+                padding-left: 14px;
                 margin: 0px;
-            }
-
-            li {
-                font-size: 14px;
-                margin: 0px;
-                margin-bottom: 7px;
+                top: -18px;
+    
+                ul {
+                    padding: 0px;
+                    margin: 0px;
+                }
+    
+                li {
+                    font-size: 14px;
+                    margin: 0px;
+                    margin-bottom: 7px;
+                }
             }
         }
+    
 
     }
     
