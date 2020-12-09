@@ -245,10 +245,6 @@ main {
         padding: 40px;
     }
 
-    header {
-        margin-bottom: 0px;
-    }
-
     main {
         margin-top: 0px;
     }
@@ -262,6 +258,10 @@ main {
 
             padding: 0px;
             text-align: center;
+
+            span.highlight {
+                text-shadow: -2px -2px $dates;
+            }
 
             #name {
                 font-size: 180%;
