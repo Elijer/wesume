@@ -44,10 +44,10 @@ header:hover {
 
     #aside {
 
-        li {
+/*         li {
             margin: 0px 0px 11px;
             transition: margin 1s;
-        }
+        } */
 
         // Links
         a {
@@ -60,7 +60,6 @@ header:hover {
 
         a:hover {
             color: white;
-            font-size: 18px;
             text-shadow: 1px 1px $bg-dark;
             font-weight: 900;
         }
