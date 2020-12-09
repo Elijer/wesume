@@ -190,9 +190,9 @@ main {
                     display: block;
                 }
 
-                p {
+                p, a {
                     display: inline;
-                    font-size: 70%;
+                    font-size: 85%;
                     letter-spacing: 1.4px;
                     color: $bg-dark;
                 }
@@ -225,7 +225,7 @@ main {
 
             padding-bottom: 0px;
 
-            a {
+            a, p {
                 font-size: 80%;
             }
         }
@@ -277,7 +277,7 @@ main {
             .trades-mobile {
                 text-align: center;
 
-                a {
+                a, p {
                     font-size: 100%;
                     display: inline;
                     text-align: center;
