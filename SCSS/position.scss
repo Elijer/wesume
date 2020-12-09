@@ -205,7 +205,7 @@ main {
     
 }
 
-@media screen and (max-width: 670px){
+@media screen and (max-width: 740px){
 
 
     // I REALLY WANT TO MAKE THIS TWO COLUMNS HERE BUT IT"S NOT WORKING
@@ -256,7 +256,7 @@ main {
     header {
 
         display: block; // this is necessary to get rid of grid
-        padding: 20px 20px 12px; // restyle padding to be minimal
+        padding: 20px 20px 4px; // restyle padding to be minimal
 
         #title {
 
@@ -270,7 +270,7 @@ main {
         }
 
         .mobile {
-            padding-top: 10px;
+            padding-top: 15px;
             display: block;
 
             // TRADES BAR
@@ -278,11 +278,11 @@ main {
                 text-align: center;
 
                 a, p {
-                    font-size: 100%;
+                    font-size: 110%;
                     display: inline;
                     text-align: center;
                     padding: 6px 0px;
-                    margin: 6px;
+                    margin: 2px;
                     color: $bg-dark;
                     text-shadow: 1px 1px $dates;
                 }
@@ -290,7 +290,7 @@ main {
 
             // CONTACTS VERTICAL MENU
             #mobile-contact {
-                padding: 10px 0px 10px 10px;
+                padding: 20px 0px 10px 10px;
                 display: block;
                 text-align: center;
 
@@ -299,18 +299,18 @@ main {
                     text-align: left;
                     display: block;
 
-                    padding: 8px 0px 0px 0px;
+                    padding: 8px 0px 20px 24px;
 
                     i {
                         display: inline;
-                        font-size: 18px;
-                        padding-right: 8px;
+                        font-size: 20px;
+                        padding-right: 4px;
                         color: $dates;
                     }
 
-                    p {
+                    p, a {
                         display: inline;
-                        font-size: 14px;
+                        font-size: 16px;
                         letter-spacing: 1.4px;
                         color: $bg-dark;
                     }
