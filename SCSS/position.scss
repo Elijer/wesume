@@ -232,6 +232,12 @@ main {
         
     }
 
+    main {
+        .sub-header-container {
+            padding-top: 15px;
+        }
+    }
+
 }
 
 @media screen and (max-width: 420px){
@@ -246,7 +252,17 @@ main {
     }
 
     main {
-        margin-top: 0px;
+        margin-top: px;
+        
+        .sub-header-container {
+            padding-top: 10px;
+
+            .sub-header {
+                font-size: 30px;
+                color: $dates;
+            }
+
+        }
     }
 
     header {
@@ -266,6 +282,7 @@ main {
             #name {
                 font-size: 180%;
                 letter-spacing: 1px;
+/*                 text-shadow: -2px -2px $red; */
             }
         }
 
