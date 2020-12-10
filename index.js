@@ -1,5 +1,10 @@
 window.addEventListener('load', (event) => {
 
+    const print = document.getElementById("printme");
+    print.addEventListener("click", function(){
+        window.print();
+    })
+
     var contact = [
         "eliahclimbs@gmail.com",
         "+1 (571) 302 4423",
