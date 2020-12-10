@@ -62,6 +62,42 @@ header {
 main {
     margin-top: 0px;
     padding-top: 40px;
+
+    #print-icon, #printme {
+        text-align: center;
+        padding: 0px;
+    }
+
+    #print-icon {
+        font-size: 30px;
+        float: center;
+        display: block;
+    }
+
+    #print-text {
+        font-size: 14px;
+    }
+
+    #printme {
+        padding: 16px;
+        padding-bottom: 0px;
+        padding-top: 22px;
+        color: $dates;
+        font-weight: 600;
+        position: absolute;
+        left: 90%;
+        top: 20px;
+        background: none;
+        z-index: 100;
+        width: 80px;
+    }
+
+    #printme:hover {
+        background: $faint;
+        color: $dates;
+        box-shadow: 4px 4px 10px $dark;
+    }
+
 }
 
 .mobile {
