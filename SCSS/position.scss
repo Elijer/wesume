@@ -276,12 +276,14 @@ main {
             text-align: center;
 
             span.highlight {
-                text-shadow: -2px -2px $dates;
+                //text-shadow: -2px -2px $dates;
+                text-shadow: none;
             }
 
             #name {
-                font-size: 180%;
+                font-size: 250%;
                 letter-spacing: 1px;
+                text-shadow: none;
 /*                 text-shadow: -2px -2px $red; */
             }
         }
@@ -295,7 +297,7 @@ main {
                 text-align: center;
 
                 a, p {
-                    font-size: 110%;
+                    font-size: 150%;
                     display: inline;
                     text-align: center;
                     padding: 6px 0px;
