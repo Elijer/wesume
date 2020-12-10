@@ -242,6 +242,10 @@ main {
 
 @media screen and (max-width: 420px){
 
+    html {
+        background-color: $faint;
+    }
+
     #trade, #aside {
         display: none;
     }
