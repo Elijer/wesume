@@ -1,5 +1,6 @@
 @import "palette";
 
+
 body {
     margin: 0px;
 }
@@ -321,6 +322,22 @@ main {
 
 }
 
+@media screen and (max-width: 550px){
+    #filter {
+        li.filter-option, li#filter-icon {
+            display: block;
+            text-align: center;
+            width: 70%;
+            margin-bottom: 5px;
+        }
+
+        li#filter-icon {
+            border: none;
+            border-bottom: 2px solid $faint;
+        }
+    }
+}
+
 @media screen and (max-width: 420px){
 
     html {
@@ -428,8 +445,10 @@ main {
 
         padding: 32px 8px 25px;
 
+
         .sub-header {
             font-size: 20px;
+            color: blue;
         }
 
         .square {
