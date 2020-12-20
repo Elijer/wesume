@@ -30,6 +30,52 @@ window.addEventListener('load', (event) => {
         
     }
 
+
+    var filters = document.querySelectorAll(".filter-option");
+
+    var selected;
+
+    filters.forEach((e) => {
+        e.addEventListener("click", function(){
+
+            e.style.background = "#d0c3dc";
+            e.style.color = "#b4acbc";
+
+            var jobs = document.querySelectorAll(".job");
+
+            if (selected === e.innerHTML){
+                jobs.forEach((e) => {
+                    e.style.display = "block";
+                })
+
+                selected = "";
+
+            } else {
+
+                filters.forEach((e) => {
+                    e.style.background = "#d0c3dc";
+                    e.style.color = "#b4acbc";
+                })
+
+                e.style.background = "#ec6b6b"
+                e.style.color = "white"
+
+                jobs.forEach((e) => {
+                    e.style.display = "none";
+                })
+
+                var showThese = document.querySelectorAll("." + e.innerHTML);
+    
+                showThese.forEach((e) => {
+                    e.style.display = "block";
+                })
+
+                selected = e.innerHTML;
+
+            }
+        })
+    })
+
 })
 
 

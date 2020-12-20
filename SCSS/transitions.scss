@@ -76,7 +76,7 @@ header:hover {
 }
 
 // JOB IN
-.job:hover {
+.job:hover, .ed:hover {
     background: $faint;
 
     .square {

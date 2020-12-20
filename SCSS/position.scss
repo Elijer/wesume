@@ -118,9 +118,47 @@ main {
     margin-top: 0px;
 }
 
+// Filter
+#filter {
+
+    padding: 0px;
+    margin-top: 25px;
+
+
+    ul {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .filter-option {
+        font-size: 18px;
+        text-align: left;
+        padding: 10px 20px 10px 20px;
+        margin-right: 4px;
+        display: inline;
+        color: $mid;
+        background: $faint;
+        border-radius: 8px;
+    }
+
+    .filter-option:hover {
+        background: $red;
+        color: white;
+    }
+
+    #filter-icon {
+        display: inline;
+        margin-right: 4px;
+        text-align: center;
+        background: none;
+        color: $dates;
+    }
+
+}
+
 // JOB
 
-.job {
+.job, .ed {
     padding: 14px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -395,7 +433,7 @@ main {
             display: none;
         }
 
-        .job {
+        .job, .ed {
 
             h4.dates {
                 color: $dates;
