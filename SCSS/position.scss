@@ -13,8 +13,8 @@ header, main {
 
 header {
 
-    padding: 36px 48px 20px 100px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 
     display: grid;
     grid-template-columns: 80% 20%;
@@ -23,12 +23,11 @@ header {
 
         margin: 0px;
         margin-top: 0px;
-        padding: 20px 0px;
+
 
         name {
             letter-spacing: 6px;
             font-size: 49px;
-            margin-bottom: 20px;
         }
         
         #trade {
