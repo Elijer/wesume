@@ -30,7 +30,11 @@ window.addEventListener('load', (event) => {
         
     }
 
+    filterBar();
 
+})
+
+function filterBar(){
     var filters = document.querySelectorAll(".filter-option");
 
     var selected;
@@ -75,8 +79,7 @@ window.addEventListener('load', (event) => {
             }
         })
     })
-
-})
+}
 
 
 
