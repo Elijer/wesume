@@ -1,11 +1,15 @@
 @import "palette";
 
-@media print {
+/* @media print { */
 
     $highl: #b191d0;
 
     @page {
         size: auto;  margin: 0mm;
+    }
+
+    body {
+        margin-top: 30px;
     }
 
     main, header {
@@ -112,4 +116,4 @@
         }
     }
 
-}
+//}
