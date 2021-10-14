@@ -32,6 +32,8 @@ window.addEventListener('load', (event) => {
 
     filterBar();
 
+    document.getElementById("dev-click").click();
+
 })
 
 function filterBar(){
