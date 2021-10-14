@@ -58,6 +58,13 @@ main {
         // to limit underline
         display: inline;
     }
+
+    #statement {
+        line-height: 20px;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
     
 
     .job, .ed {
@@ -81,6 +88,10 @@ main {
 
     }
     
+    .section-divider {
+        height: 36px;
+    }
+
     .square {
         position: relative;
         height: 20px;
