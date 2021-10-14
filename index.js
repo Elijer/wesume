@@ -17,7 +17,8 @@ window.addEventListener('load', (event) => {
     
     var disp = document.getElementById("name");
     var current;
-    for (var i = 0; i < mobileIcons.length; i++){
+
+/*     for (var i = 0; i < mobileIcons.length; i++){
         let index = i;
         current = mobileIcons[i];
         current.addEventListener("click", function(){
@@ -28,7 +29,7 @@ window.addEventListener('load', (event) => {
 
         })
         
-    }
+    } */
 
     filterBar();
 
