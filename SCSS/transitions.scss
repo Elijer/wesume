@@ -17,10 +17,10 @@ header {
         transition: text-shadow 1s, color .8s .4s;
     }
 
-    .highlight-slash {
+/*     .highlight-slash {
         color: $subtle-border;
         transition: color 4s;
-    }
+    } */
 
 }
 
@@ -35,27 +35,13 @@ header:hover {
         transition: text-shadow 1s, color 1s;
     }
 
-    .highlight-slash {
+/*     .highlight-slash {
         color: $red;
-        transition: color 2s;
-    }
+        transition: color 1s;
+    } */
 
 
     #aside {
-
-/*         li {
-            margin: 0px 0px 11px;
-            transition: margin 1s;
-        } */
-
-        // Links
-        a {
-            margin: 0px;
-            color: $bg-light;
-            font-size: 16px;
-            text-shadow: 1px 1px $bg-dark;
-            transition: font-size 1s;
-        }
 
         a:hover {
             color: white;
