@@ -108,8 +108,7 @@ main {
 // this container is necessary because the sub-header itself is displayed inline, which makes it difficult to add a margin-bottom
 .sub-header-container {
     margin-bottom: 30px;
-    // this left margin is to match the padding for .job
-    margin-left: 20px;
+    //margin-left: 20px;
 }
 
 .sub-header {
