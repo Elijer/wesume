@@ -35,6 +35,13 @@ header:hover {
         transition: text-shadow 1s, color 1s;
     }
 
+    #professional-description {
+        color: white;
+        padding-left: 8px;
+        transition: color 1s;
+        transition: padding 1s;
+    }
+
 /*     .highlight-slash {
         color: $red;
         transition: color 1s;

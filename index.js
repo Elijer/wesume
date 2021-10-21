@@ -1,5 +1,9 @@
 window.addEventListener('load', (event) => {
 
+    document.getElementById("name").addEventListener("click", (e) => {
+        window.location.replace("https://elijahkennedy.com");
+    })
+
     const print = document.getElementById("printme");
     print.addEventListener("click", function(){
         window.print();
