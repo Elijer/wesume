@@ -1,6 +1,24 @@
 @import "palette";
 
 
+//JOB OUT
+.square {
+    background-color: $faint;
+    -webkit-transition: background-color 1s;
+}
+
+// JOB IN
+.job:hover, .ed:hover, .statement:hover {
+    background: $faint;
+
+    .square {
+        background-color: $red;
+        -webkit-transition: background-color 1s;
+    }
+}
+
+
+
 // HEADER OUT
 header {
     transition: background 1s;
@@ -17,12 +35,12 @@ header {
         transition: text-shadow 1s, color .8s .4s;
     }
 
-/*     .highlight-slash {
-        color: $subtle-border;
-        transition: color 4s;
-    } */
-
+    #professional-description {
+        transition: color 3s;
+        transition: padding .8s;
+    }
 }
+
 
 // HEADER IN
 header:hover {
@@ -37,16 +55,12 @@ header:hover {
 
     #professional-description {
         color: white;
+        font-size: 16px;
         padding-left: 8px;
         transition: color 1s;
         transition: padding 1s;
+        transition: font-size 1s;
     }
-
-/*     .highlight-slash {
-        color: $red;
-        transition: color 1s;
-    } */
-
 
     #aside {
 
@@ -57,20 +71,4 @@ header:hover {
         }
     }
 
-}
-
-//JOB OUT
-.square {
-    background-color: $faint;
-    -webkit-transition: background-color 1s;
-}
-
-// JOB IN
-.job:hover, .ed:hover, .statement:hover {
-    background: $faint;
-
-    .square {
-        background-color: $red;
-        -webkit-transition: background-color 1s;
-    }
 }
