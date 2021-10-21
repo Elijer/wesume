@@ -107,7 +107,7 @@ main {
 
 // this container is necessary because the sub-header itself is displayed inline, which makes it difficult to add a margin-bottom
 .sub-header-container {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
     .sub-header {
@@ -160,10 +160,9 @@ main {
 
     .statement {
         display: block; // if inline, it has problems with the square from the job below
-        line-height: 22px;
-        font-size: 18px;
-        //padding: 16px 20px .5px;
-        border-radius: 8px;
+        line-height: 24px;
+        font-size: 20px;
+        padding: 16px 20px;
         margin-top: 18px;
     }
 
