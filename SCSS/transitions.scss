@@ -54,12 +54,12 @@ header:hover {
     }
 
     #professional-description {
-        color: white;
-        font-size: 16px;
+        color: rgb(255, 255, 255, .7);
+        //font-size: 16px;
         padding-left: 8px;
         transition: color 1s;
         transition: padding 1s;
-        transition: font-size 1s;
+        //transition: font-size 1s;
     }
 
     #aside {
