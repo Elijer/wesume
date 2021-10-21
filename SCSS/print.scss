@@ -6,6 +6,15 @@
         size: auto;  margin: 0mm;
     }
 
+    html {
+        background: $faint;
+    }
+
+    body, html {
+        margin: 0px;
+    }
+    
+
     main, header {
         box-shadow: none;
     }
@@ -36,11 +45,6 @@
             margin-top: 12px;
         }
 
-        #statement {
-            padding-left: 0px;
-            margin-left: 0px;
-        }
-
         h3 {
 /*             border-bottom: 4px solid #d0c3dc;
             border-left: 4px solid #d0c3dc;
@@ -52,11 +56,11 @@
         }
 
         #aside {
-            li {
-                a {
+                a.contact-link {
                     color: $bg-dark;
+                    line-height: 14px;
+                    font-size: 14px;
                 }
-            }
         }
     }
 
@@ -78,6 +82,13 @@
 
         .sub-header-container {
             margin-bottom: 10px;
+
+            .statement {
+                display: block;
+                margin: 12px 0px 16px;
+                font-size: 14px;
+                line-height: 19px;
+            }
         }
 
         #filter {

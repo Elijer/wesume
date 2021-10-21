@@ -1,0 +1,24 @@
+header {
+
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+    div#title {
+        padding: none;
+        margin: none;
+    }
+
+    #aside {
+        padding-top: 30px;
+        a.contact-link {
+            line-height: 8px;
+            font-size: 14px;
+        }
+    }
+}
+
+main {
+    .section-divider {
+        height: 12px;
+    }
+}
