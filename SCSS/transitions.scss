@@ -66,8 +66,6 @@ header:hover {
 
 }
 
-
-
 //JOB OUT
 .square {
     background-color: $faint;
@@ -75,7 +73,7 @@ header:hover {
 }
 
 // JOB IN
-.job:hover, .ed:hover {
+.job:hover, .ed:hover, .statement:hover {
     background: $faint;
 
     .square {

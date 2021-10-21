@@ -83,7 +83,7 @@ main {
         padding: 16px;
         padding-bottom: 0px;
         padding-top: 22px;
-        color: $dates;
+        color: $mid;
         font-weight: 600;
         position: absolute;
         left: 90%;
@@ -108,6 +108,7 @@ main {
 // this container is necessary because the sub-header itself is displayed inline, which makes it difficult to add a margin-bottom
 .sub-header-container {
     margin-bottom: 30px;
+}
 
     .sub-header {
         font-weight: 500;
@@ -119,6 +120,7 @@ main {
     #filter {
 
         padding: 0px;
+        margin: auto;
         margin-top: 20px;
 
 
@@ -158,10 +160,12 @@ main {
 
     .statement {
         display: block; // if inline, it has problems with the square from the job below
-        line-height: 20px;
-        margin: 28px 20px 0px 0px;
+        line-height: 22px;
+        font-size: 18px;
+        //padding: 16px 20px .5px;
+        border-radius: 8px;
+        margin-top: 18px;
     }
-}
 
 // JOB
 
@@ -333,7 +337,11 @@ footer {
 }
 
 @media screen and (max-width: 550px){
+    
     #filter {
+
+        margin-left: 10%;
+
         li.filter-option, li#filter-icon {
             display: block;
             text-align: center;
