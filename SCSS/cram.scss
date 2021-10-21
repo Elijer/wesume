@@ -1,24 +1,41 @@
-header {
+body {
+    header {
 
-    padding-top: 20px;
-    padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 0px;
 
-    div#title {
-        padding: none;
-        margin: none;
-    }
+        div#title {
+            padding: none;
+            margin: none;
 
-    #aside {
-        padding-top: 30px;
-        a.contact-link {
-            line-height: 8px;
-            font-size: 14px;
+            #name {
+                font-size: 30px;
+            }
+
+            #trade {
+                padding-top: 0px;
+            }
+        
+        }
+
+        #aside {
+            padding-top: 25px;
+            li {
+                a.contact-link {
+                    display: block;
+                    line-height: 2px;
+                    font-size: 11px;
+                }
+            }
         }
     }
-}
 
-main {
-    .section-divider {
-        height: 12px;
+    main {
+
+        padding-top: 10px;
+
+        .section-divider {
+            height: 12px;
+        }
     }
 }
