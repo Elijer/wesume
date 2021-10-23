@@ -38,7 +38,23 @@ body {
             margin-bottom: 0px;
 
             .statement {
-                margin-bottom: 4px;
+                margin-top: 5px;
+                margin-bottom: 0px;
+                font-size: 13px;
+                line-height: 16px;
+            }
+        }
+
+        .sub-header {
+            font-size: 15px;
+        }
+
+        .job {
+
+            margin-bottom: 0px;
+
+            li {
+                line-height: 11px;
             }
         }
 

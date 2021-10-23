@@ -121,6 +121,11 @@
                 margin-top: 5px;
             }
 
+            .skills {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+            }
+
             li {
                 font-size: 15px;
                 line-height: 14px;
