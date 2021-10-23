@@ -163,8 +163,7 @@ main {
 // JOB
 
 .job, .ed {
-    padding: 14px;
-    padding: 14px 14px 33px 20px;
+    padding: 0px 14px 33px 20px;
 
     .dates {
         font-size: 18px;
@@ -179,6 +178,11 @@ main {
     .role-divider {
         margin-left: 1px;
         padding-right: 1px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
     }
     
     li {
@@ -520,6 +524,7 @@ footer {
                     margin-bottom: 7px;
                 }
             }
+            
         }
     
 
