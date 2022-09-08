@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "behavior.js",
   "scripts": {
-    "test": "parcel index.html"
+    "test": "parcel index.html",
+    "start": "npx parcel index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
     "sass": "^1.29.0"
-  },
-  "dependencies": {}
+  }
 }
