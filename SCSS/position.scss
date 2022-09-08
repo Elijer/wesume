@@ -58,7 +58,7 @@ main {
     margin-top: 0px;
     padding-top: 40px;
 
-    #print-icon, #printme {
+    #print-icon, .interaction-button {
         text-align: center;
         padding: 0px;
     }
@@ -73,21 +73,22 @@ main {
         font-size: 14px;
     }
 
-    #printme {
-        padding: 16px;
-        padding-bottom: 0px;
-        padding-top: 22px;
+    .interaction-container {
+        top: 40px;
         color: $mid;
-        font-weight: 600;
         position: absolute;
         left: 90%;
-        top: 20px;
+    }
+    
+    .interaction-button {        
+        font-weight: 600;
+        padding: 22px 22px;
         background: none;
         z-index: 100;
         width: 80px;
     }
 
-    #printme:hover {
+    .interaction-button:hover {
         background: $faint;
         color: $dates;
         box-shadow: 4px 4px 10px $dark;
@@ -226,6 +227,11 @@ footer {
 }
 
 @media screen and (max-width: 760px){
+
+    .interaction-container {
+        display: none;
+    }
+
     // hide the normal #trade and #aside menus
     #trade, #aside {
         display: none;
