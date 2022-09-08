@@ -8,3 +8,5 @@ package-lock.json
 .firebase/
 .parcel-cache/
 dist/
+
+.DS_Store
