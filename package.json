@@ -4,7 +4,8 @@
   "main": "behavior.js",
   "scripts": {
     "test": "parcel index.html",
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "deploy": "firebase deploy"
   },
   "keywords": [],
   "author": "",
