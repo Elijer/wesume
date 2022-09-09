@@ -304,7 +304,7 @@ footer {
     
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 780px){
 
 
     // I REALLY WANT TO MAKE THIS TWO COLUMNS HERE BUT IT"S NOT WORKING
@@ -331,15 +331,20 @@ footer {
         
     }
 
-    main {
-        .sub-header-container {
-            padding-top: 15px;
+    .sub-header-container {
+        padding-top: 15px;
+        padding-bottom: 16px;
+    }
+
+    div.job, div.ed {
+        ul.descrip.skills {
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 560px){
     
     #filter {
 
@@ -518,6 +523,7 @@ footer {
                 padding-left: 14px;
                 margin: 0px;
                 top: -18px;
+                grid-template-columns: repeat(2, 1fr);
     
                 ul {
                     padding: 0px;
@@ -537,68 +543,3 @@ footer {
     }
     
 }
-
-/* 
-@media (max-width: 800px) {
-
-    header, main {
-        margin: 0px;
-        margin-top: 0px;
-        padding: 40px;
-    }
-
-    header {
-
-        grid-template-columns: 70% 30%;
-
-        #title {
-            name {
-                font-size: 50px;
-            }
-
-        }
-    }
-
-}
-
-@media (max-width: 800px) {
-    header {
-
-        grid-template-columns: 100% 30%;
-
-        #title {
-            name {
-                font-size: 50px;
-            }
-
-        }
-
-        #aside {
-            display: none;
-        }
-    }
-
-
-    main {
-        #aside-mobile {
-            padding-bottom: 20px;
-            margin-bottom: 33px;
-            display: block;
-        }
-        
-        #mobile {
-            display: block;
-        }
-
-        a {
-            display: block;
-            line-height: 26px;
-        }
-
-        a:hover {
-            color: $red;
-            font-weight: 700;
-        }
-
-    }
-} */
