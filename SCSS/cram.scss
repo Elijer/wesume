@@ -1,11 +1,11 @@
 body {
     header {
 
-        padding-top: 20px;
-        padding-bottom: 0px;
+        // padding-top: 20px;
+        padding: 35px 80px 0px;
 
         div#title {
-            padding: none;
+            padding: 0px;
             margin: none;
 
             #name {
@@ -19,7 +19,7 @@ body {
         }
 
         #aside {
-            padding-top: 25px;
+            // padding-top: 25px;
             li {
                 a.contact-link {
                     display: block;
@@ -32,7 +32,7 @@ body {
 
     main {
 
-        padding-top: 10px;
+        padding-top: 0px;
 
         .sub-header-container {
             margin-bottom: 0px;
