@@ -4,7 +4,7 @@
 @import './style.scss';
 @import './transitions.scss';
 
-// @media print {
+@media print {
     @import './print.scss';
     @import './cram.scss';
-// }
+}
