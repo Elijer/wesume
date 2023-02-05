@@ -12,10 +12,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0",
-    "sass": "^1.29.0"
+    "@parcel/transformer-sass": "^2.8.0"
   },
-    "engines": {
-      "node": "10.1"
-    }
+  "engines": {
+    "node": "10.1"
+  }
 }

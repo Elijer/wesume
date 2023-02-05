@@ -12,4 +12,4 @@ At the moment, I am using this for local hosting. You can run `parcel index.html
 At the moment, I am using this for hosting. SCSS integrates well with parcel.js, and there doesn't seem to be anything left to worry about it.
 
 ### Pain points
-If you are having trouble with parcel, try deleting your .npm/_npx folder in your user directory
+If you are having trouble with parcel, try deleting your `npx/` folder in your user directory, found at /usr/local/bin/npx. Delete yout package-lock.json and node_modules/ folder while you're at it.
