@@ -185,6 +185,15 @@ main {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
+
+    .projs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      li {
+        line-height: 15px;
+      }
+    }
     
     li {
         margin-top: 7px;
