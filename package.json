@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "behavior.js",
   "scripts": {
-    "test": "parcel index.html",
     "start": "npx parcel index.html",
     "deploy": "firebase deploy"
   },
